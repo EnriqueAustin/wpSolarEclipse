@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply text-solar-light bg-solar-charcoal font-body antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading tracking-tight text-white;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-2xl text-solar-black bg-solar-yellow hover:bg-solar-yellow-hover transition-colors duration-300;
+        box-shadow: 0 0 15px rgba(251, 191, 36, 0.4);
+    }
+
+    .btn-primary:hover {
+        box-shadow: 0 0 25px rgba(251, 191, 36, 0.6);
+    }
+
+    .btn-secondary {
+        @apply inline-flex items-center justify-center px-6 py-3 border border-solar-gray text-base font-medium rounded-2xl text-white bg-transparent hover:bg-solar-gray transition-colors duration-300;
+    }
+
+    .glass-panel {
+        @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-xl;
+    }
+
+    .gradient-text {
+        @apply text-transparent bg-clip-text bg-gradient-to-r from-solar-yellow to-solar-cyan;
+    }
+}

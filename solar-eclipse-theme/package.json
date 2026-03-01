@@ -1,0 +1,13 @@
+{
+  "name": "solar-eclipse-theme",
+  "version": "1.0.0",
+  "description": "Tailwind CSS setup for Solar Eclipse Theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build src/input.css -o assets/css/theme.css --minify",
+    "watch": "tailwind build src/input.css -o assets/css/theme.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

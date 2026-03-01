@@ -1,0 +1,49 @@
+{
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                    "slug": "solar-yellow",
+                    "color": "#FBBF24",
+                    "name": "Solar Yellow"
+                },
+                {
+                    "slug": "solar-cyan",
+                    "color": "#06B6D4",
+                    "name": "Solar Cyan"
+                },
+                {
+                    "slug": "solar-charcoal",
+                    "color": "#111827",
+                    "name": "Solar Charcoal"
+                },
+                {
+                    "slug": "white",
+                    "color": "#ffffff",
+                    "name": "White"
+                }
+            ],
+            "defaultPalette": false
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "\"Space Grotesk\", sans-serif",
+                    "name": "Heading",
+                    "slug": "heading"
+                },
+                {
+                    "fontFamily": "\"Inter\", sans-serif",
+                    "name": "Body",
+                    "slug": "body"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1200px"
+        }
+    }
+}
